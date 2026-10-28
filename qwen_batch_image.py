@@ -61,7 +61,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 Before output, verify that the scene is recognizable and coherent; there are exactly 2–6 semantic entities including background; each entity maps to one layer; internal details stay with their parent; depth relationships are plausible; the artwork is simple yet visually complete; and the sample contributes diversity to a larger dataset. If not, simplify or redesign before rendering."""
 COUNT = 5
-MODEL = "qwen-image-plus"
+MODEL = "qwen-image-3.0-pro"
 OUTPUT_DIR = "qwen_outputs"
 SIZE = "1024*1024"
 NEGATIVE_PROMPT = ""
@@ -71,7 +71,7 @@ TIMEOUT = 300
 RETRIES = 3
 BASE_SEED = 20261027
 
-SUBMIT_URL = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-to-image/image-synthesis"
+SUBMIT_URL = "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
 TASK_URL = "https://dashscope.aliyuncs.com/api/v1/tasks/{task_id}"
 
 
@@ -83,7 +83,7 @@ def http_json(url: str, method: str, headers: dict[str, str], payload: dict[str,
     data = None if payload is None else json.dumps(payload, ensure_ascii=False).encode("utf-8")
     request = urllib.request.Request(url, data=data, headers=headers, method=method)
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
+        with urllib.request.urlopen(request, timeout=300) as response:
             raw = response.read().decode("utf-8")
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
@@ -103,7 +103,6 @@ def headers(api_key: str) -> dict[str, str]:
     return {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
-        "X-DashScope-Async": "enable",
     }
 
 
@@ -147,6 +146,11 @@ def image_urls(result: dict[str, Any]) -> list[str]:
     results = result.get("output", {}).get("results", [])
     urls = [item.get("url") for item in results if isinstance(item, dict) and item.get("url")]
     if not urls:
+        choices = result.get("output", {}).get("choices", [])
+        for choice in choices:
+            content = choice.get("message", {}).get("content", []) if isinstance(choice, dict) else []
+            urls.extend(item.get("image") for item in content if isinstance(item, dict) and item.get("image"))
+    if not urls:
         raise ApiError(f"任务成功但没有图片 URL：{result}")
     return [str(url) for url in urls]
 
@@ -155,19 +159,22 @@ def generate_one(index: int, args: argparse.Namespace, api_key: str, output_dir:
     seed = args.base_seed + index
     payload: dict[str, Any] = {
         "model": args.model,
-        "input": {"prompt": args.prompt},
+        "input": {
+            "messages": [{
+                "role": "user",
+                "content": [{"text": args.prompt}],
+            }],
+        },
         "parameters": {"size": args.size, "n": 1, "seed": seed},
     }
     if args.negative_prompt:
-        payload["input"]["negative_prompt"] = args.negative_prompt
+        payload["parameters"]["negative_prompt"] = args.negative_prompt
 
     last_error: Exception | None = None
     for attempt in range(1, args.retries + 1):
         try:
             submitted = http_json(SUBMIT_URL, "POST", headers(api_key), payload)
-            task_id = get_task_id(submitted)
-            finished = wait_for_task(api_key, task_id, args.timeout, args.poll_interval)
-            url = image_urls(finished)[0]
+            url = image_urls(submitted)[0]
             destination = output_dir / f"qwen_{index:04d}.png"
             download(url, destination)
             return destination
