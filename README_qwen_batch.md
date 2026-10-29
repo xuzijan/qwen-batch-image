@@ -1,6 +1,6 @@
 # 千问批量生图脚本
 
-脚本文件是 [`qwen_batch_image.py`](qwen_batch_image.py)。它使用阿里云 DashScope 的异步文生图接口，逐个提交任务、等待完成并把图片下载到本地。每张图使用不同的 `seed`，因此同一提示词会生成不同结果。
+脚本文件是 [`qwen_batch_image.py`](qwen_batch_image.py)。它使用阿里云 DashScope 的千问图片生成接口，并把返回的图片下载到本地。每张图使用不同的 `seed`，因此同一提示词会生成不同结果。
 
 ## 快速使用
 
@@ -37,6 +37,34 @@ python .\qwen_batch_image.py --prompt "一只在月球上喝茶的猫" --count 5
 
 脚本默认使用中国内地 DashScope 地址：
 `https://dashscope.aliyuncs.com/api/v1/services/aigc/text-to-image/image-synthesis`。
-如果你的 Key 属于国际站，或控制台给了不同的地域 Endpoint，需要把脚本顶部的 `SUBMIT_URL` 和 `TASK_URL` 改成控制台文档中的地址。`MODEL` 也要改为你的账号实际开通的千问生图模型。
+当前脚本默认使用新版 `qwen-image-3.0-pro` 和多模态生成接口。如果你的 Key 属于其他地域，或控制台给了不同的 Endpoint，需要把脚本顶部的 `SUBMIT_URL` 改成控制台文档中的地址。`MODEL` 也要改为你的账号实际开通的千问生图模型。
 
 不要把 API Key 提交到 Git 或公开网页；使用环境变量最安全。
+
+## Benchmark 计划模式
+
+Benchmark 模式不会用一个高层 Prompt 配不同 seed 来生成所有图片，而是先根据统一的高层生成策略抽取一份结构化场景计划，再渲染出该图片专属的 Prompt，并让这一条 Prompt 只生成一张图片。第一轮使用确定性模板，不让文本模型自由改写；seed 只用于复现，不负责语义覆盖。
+
+第一阶段只生成计划和 Prompt，不调用 API：
+
+```powershell
+python .\plan_dataset.py --count 10 --output-dir .\dataset_demo --seed 20261029
+python .\validate_prompts.py --plans .\dataset_demo\plans.jsonl --prompts .\dataset_demo\prompts.jsonl
+```
+
+输出包括：
+
+- `plans.jsonl`：每张图的对象、图层数、深度、关系和遮挡条件。
+- `prompts.jsonl`：每张图实际要发送给千问的 Prompt，以及计划和 Prompt 哈希。
+- `coverage_report.json`：本轮随机抽样的覆盖统计。
+
+Prompt 渲染器会固定使用经过验证的平面矢量插画风格，只把当前样本的对象列表和必要的空间关系压缩成一段场景描述。这样每张图片仍有独立 Prompt，同时避免对象、图层等结构化术语改变整体视觉风格。
+
+检查完这 10 条 Prompt 后，再执行单图生成：
+
+```powershell
+$env:DASHSCOPE_API_KEY = "你的API Key"
+python .\generate_dataset.py --plans .\dataset_demo\plans.jsonl --prompts .\dataset_demo\prompts.jsonl --workers 3
+```
+
+该命令固定每条请求 `n=1`，图片保存到 `dataset_demo/images/`，生成参数、任务 ID、图片哈希和状态保存到 `manifest.jsonl`。详细设计见 [`PROMPT_DATASET_DESIGN.md`](PROMPT_DATASET_DESIGN.md)。

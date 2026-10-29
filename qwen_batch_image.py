@@ -24,7 +24,7 @@ from typing import Any
 
 
 # ====== 你可以直接修改这里 ======
-API_KEY = ""  # 建议留空，改用环境变量 DASHSCOPE_API_KEY
+API_KEY = ""  # 建议使用环境变量 DASHSCOPE_API_KEY，或运行时输入
 PROMPT = r"""Task
 
 Create exactly one original, visually appealing illustration in a clean, modern 2D vector-art style. The illustration belongs to a large, diverse collection designed for semantic object-level layer separation. Independently invent the subject, scene, characters, setting, and composition. The final result must feel like polished standalone artwork, not a segmentation diagram.

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+qwen_outputs/
+dataset_demo/
+comparison_*/
+pilot_*/
+retry_*/
+review_batch_*/
+contact_sheet_*.png
