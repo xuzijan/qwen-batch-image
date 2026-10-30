@@ -179,7 +179,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--limit", type=int, default=None, help="只生成前 N 个计划；用于小规模试跑")
     parser.add_argument("--output-dir", type=Path, default=None)
     parser.add_argument("--model", default="qwen-image-3.0-pro")
-    parser.add_argument("--size", default="1536*1024")
+    parser.add_argument("--size", default="1024*1024")
     parser.add_argument("--negative-prompt", default="")
     parser.add_argument("--workers", type=int, default=3)
     parser.add_argument("--poll-interval", type=float, default=2.0)

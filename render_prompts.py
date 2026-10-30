@@ -10,10 +10,8 @@ import json
 from pathlib import Path
 from typing import Any, Iterable
 
+from qwen_batch_image import PROMPT as LEGACY_PROMPT
 from taxonomy import RELATION_LABELS
-
-
-HIGH_LEVEL_POLICY = """Create one original, visually appealing illustration in a clean, modern 2D vector-art style. The final result should feel like polished standalone artwork, not a segmentation diagram. Use polished, charming, minimalist 2D vector aesthetics: smooth geometric and organic shapes, solid flat fills, a harmonious restrained palette, crisp contours, coherent design language, minimal identity-preserving details, and balanced negative space. Keep objects expressive but uncomplicated. Let the model choose a natural viewpoint, relative scale, spacing, and composition. Avoid photorealism, painterly textures, intricate patterns, gradients, elaborate lighting, dramatic shadows, text, labels, watermarks, crowds, and tiny decorative clutter. Never render an object as a featureless single-color cutout."""
 
 
 def sha256_text(value: str) -> str:
@@ -77,16 +75,14 @@ def render_prompt(plan: dict[str, Any]) -> str:
     if not relations:
         relations = "- Keep all listed entities separate and clearly recognizable."
 
-    return f"""{HIGH_LEVEL_POLICY}
+    return f"""{LEGACY_PROMPT}
 
-Scene: a simple {taxonomy['scene_type']} setting with exactly {taxonomy['layer_count']} independent objects or coherent background regions: {entity_names}. These are the only independent objects in the scene. Keep each one complete, recognizable, and visually separate; small internal details belong to their parent object and should stay sparse and graphic.
+For this particular sample, use a simple {taxonomy['scene_type']} setting with the following planned entities: {entity_names}. Keep these as the main semantic objects and do not add a busy collection of extra objects. Required spatial relationships:
 
 {depth_note}
-
-Spatial relationships:
 {relations}
 
-Arrange the scene naturally with one clear focal point, comfortable negative space, and a supportive but uncluttered background. Do not force exact positions, proportions, camera distance, or rigid diagram geometry. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
+Keep the scene naturally composed and recognizable. Let the model decide the exact object sizes, positions, viewpoint, spacing, and composition. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
 """.strip()
 
 

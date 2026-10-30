@@ -58,7 +58,7 @@ python .\validate_prompts.py --plans .\dataset_demo\plans.jsonl --prompts .\data
 - `prompts.jsonl`：每张图实际要发送给千问的 Prompt，以及计划和 Prompt 哈希。
 - `coverage_report.json`：本轮随机抽样的覆盖统计。
 
-Prompt 渲染器会固定使用经过验证的平面矢量插画风格，只把当前样本的对象列表和必要的空间关系压缩成一段场景描述。这样每张图片仍有独立 Prompt，同时避免对象、图层等结构化术语改变整体视觉风格。
+Prompt 渲染器直接复用此前 50 张图片使用的总 Prompt 原文，只在末尾追加当前样本的对象列表和必要空间关系。生成脚本默认使用 `1024*1024`，与旧样本保持一致；这样每张图片仍有独立 Prompt，同时尽量保持旧有视觉风格。
 
 检查完这 10 条 Prompt 后，再执行单图生成：
 
