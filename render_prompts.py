@@ -75,30 +75,14 @@ def render_prompt(plan: dict[str, Any]) -> str:
     if not relations:
         relations = "- Keep all listed entities separate and clearly recognizable."
 
-    subject_families = ", ".join(taxonomy.get("subject_families", []))
-    matrix_conditions = (
-        f"- semantic layer count: {taxonomy['layer_count']} including the background\n"
-        f"- subject families: {subject_families}\n"
-        f"- scene type: {taxonomy['scene_type']}\n"
-        f"- relation pattern: {taxonomy.get('relation_pattern', 'mixed')}\n"
-        f"- occlusion level: {taxonomy['occlusion_level']}\n"
-        f"- complexity: {taxonomy['complexity']}\n"
-        f"- palette tendency: {taxonomy['palette']}\n"
-        f"- viewpoint: {taxonomy['viewpoint']}\n"
-        f"- composition tendency: {taxonomy['composition']}"
-    )
-
     return f"""{LEGACY_PROMPT}
 
-For this particular sample, use the following selected benchmark conditions:
-{matrix_conditions}
-
-Use these planned entities in the scene: {entity_names}. Keep them as the main semantic objects and do not add a busy collection of extra objects. Required spatial relationships:
+For this particular sample, use a {taxonomy['scene_type']} setting and these planned entities: {entity_names}. Keep them as the main semantic objects and do not add a busy collection of extra objects. The intended occlusion level is {taxonomy['occlusion_level']}; use clear, natural object boundaries and preserve the requested relationships below:
 
 {depth_note}
 {relations}
 
-Treat the matrix conditions as high-level constraints, not as a rigid diagram. Keep the scene naturally composed and recognizable. Let the model decide exact object sizes, positions, spacing, and visual details. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
+Keep the scene naturally composed and recognizable. Let the model decide the palette, viewpoint, composition, exact object sizes, positions, spacing, and visual details. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
 """.strip()
 
 
