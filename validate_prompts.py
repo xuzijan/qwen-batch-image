@@ -45,9 +45,10 @@ def validate(plans: list[dict], prompts: list[dict]) -> list[str]:
             errors.append(f"{sample_id}: prompt_sha256 does not match")
         if prompt_record.get("image_seed") != plan.get("image_seed"):
             errors.append(f"{sample_id}: image seed differs between plan and prompt")
-        for entity in plan.get("entities", []):
-            if entity.get("name", "").lower() not in prompt.lower():
-                errors.append(f"{sample_id}: prompt is missing entity {entity.get('name')!r}")
+        taxonomy = plan.get("taxonomy", {})
+        for required in (taxonomy.get("scene_type"), taxonomy.get("occlusion_level")):
+            if required and str(required).lower() not in prompt.lower():
+                errors.append(f"{sample_id}: prompt is missing controlled condition {required!r}")
 
     duplicates = sum(count - 1 for count in seen_signatures.values() if count > 1)
     if duplicates:

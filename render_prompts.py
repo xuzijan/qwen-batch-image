@@ -23,10 +23,16 @@ def sha256_json(value: Any) -> str:
     return sha256_text(encoded)
 
 
-def _entity_description(entity: dict[str, Any]) -> str:
-    name = entity["name"]
-    article = "an" if name[:1].lower() in "aeiou" else "a"
-    return f"{article} {name}"
+def _main_subject_family(plan: dict[str, Any]) -> str:
+    entities = plan.get("entities", [])
+    for entity in entities[1:]:
+        if entity.get("role") == "main_subject":
+            return str(entity.get("category", "recognizable subject"))
+    return "recognizable subject"
+
+
+def _with_article(value: str) -> str:
+    return ("an " if value[:1].lower() in "aeiou" else "a ") + value
 
 
 def _relation_sentence(relation: dict[str, Any], entities: dict[str, dict[str, Any]]) -> str:
@@ -58,31 +64,14 @@ def render_prompt(plan: dict[str, Any]) -> str:
     taxonomy = plan["taxonomy"]
     entities = plan["entities"]
     entity_by_id = {entity["id"]: entity for entity in entities}
-    ordered = sorted(entities, key=lambda entity: entity["depth"])
-    entity_names = ", ".join(_entity_description(entity) for entity in ordered)
-    relations = "\n".join(
-        f"- {_relation_sentence(relation, entity_by_id)}"
-        for relation in plan.get("relations", [])
-    )
-    occluding_relations = [
-        relation for relation in plan.get("relations", [])
-        if relation.get("type") in {"in_front_of", "behind", "covering"}
-    ]
-    if occluding_relations:
-        depth_note = "Honor the specified occlusion relationships; place each occluding entity naturally in front of its target. Let the model choose the remaining depth arrangement."
-    else:
-        depth_note = "Choose the remaining depth arrangement naturally while keeping all listed entities distinct."
-    if not relations:
-        relations = "- Keep all listed entities separate and clearly recognizable."
+    main_subject_family = _with_article(_main_subject_family(plan))
+    occlusion_level = taxonomy["occlusion_level"]
 
     return f"""{LEGACY_PROMPT}
 
-For this particular sample, use a {taxonomy['scene_type']} setting and these planned entities: {entity_names}. Keep them as the main semantic objects and do not add a busy collection of extra objects. The intended occlusion level is {taxonomy['occlusion_level']}; use clear, natural object boundaries and preserve the requested relationships below:
+For this particular sample, use a {taxonomy['scene_type']} setting with one clear focal point centered on a {main_subject_family}. Aim for about {taxonomy['layer_count']} semantic entities including the background, but prioritize a harmonious, naturally related scene over filling a quota. Choose the specific subject and any supporting entities yourself so they belong together and make sense in this setting. A single main subject is acceptable when it creates the strongest illustration. The intended occlusion level is {occlusion_level}; use it only when a natural overlap helps the composition. Do not force unrelated objects or artificial interactions.
 
-{depth_note}
-{relations}
-
-Keep the scene naturally composed and recognizable. Let the model decide the palette, viewpoint, composition, exact object sizes, positions, spacing, and visual details. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
+Keep the scene naturally composed and recognizable. Let the model decide the exact object list, palette, viewpoint, composition, object sizes, positions, spacing, and visual details. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
 """.strip()
 
 
