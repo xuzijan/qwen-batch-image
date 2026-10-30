@@ -79,6 +79,22 @@ class ApiError(RuntimeError):
     pass
 
 
+def load_local_api_key() -> str:
+    """Load a local, gitignored DashScope key without requiring python-dotenv."""
+    candidates = [Path(__file__).with_name(".env"), Path.cwd() / ".env"]
+    for path in candidates:
+        if not path.is_file():
+            continue
+        for raw_line in path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            name, value = line.split("=", 1)
+            if name.strip() == "DASHSCOPE_API_KEY":
+                return value.strip().strip("\"'")
+    return ""
+
+
 def http_json(url: str, method: str, headers: dict[str, str], payload: dict[str, Any] | None = None) -> dict[str, Any]:
     data = None if payload is None else json.dumps(payload, ensure_ascii=False).encode("utf-8")
     request = urllib.request.Request(url, data=data, headers=headers, method=method)
@@ -209,7 +225,7 @@ def main() -> int:
     if args.count < 1 or args.workers < 1 or args.retries < 1:
         print("count、workers、retries 必须是正整数", file=sys.stderr)
         return 2
-    api_key = args.api_key or os.getenv("DASHSCOPE_API_KEY", "")
+    api_key = args.api_key or os.getenv("DASHSCOPE_API_KEY", "") or load_local_api_key()
     if not api_key:
         api_key = input("请输入 DashScope API Key（不会写入文件）：").strip()
     if not api_key:

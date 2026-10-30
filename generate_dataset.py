@@ -28,6 +28,7 @@ from qwen_batch_image import (
     headers,
     http_json,
     image_urls,
+    load_local_api_key,
     wait_for_task,
 )
 from render_prompts import load_jsonl, sha256_json, sha256_text
@@ -210,7 +211,7 @@ def main() -> int:
     args.output_dir = args.output_dir or args.plans.parent
     image_dir = args.output_dir / "images"
     image_dir.mkdir(parents=True, exist_ok=True)
-    api_key = args.api_key or os.getenv("DASHSCOPE_API_KEY", "")
+    api_key = args.api_key or os.getenv("DASHSCOPE_API_KEY", "") or load_local_api_key()
     if not api_key:
         api_key = input("请输入 DashScope API Key（不会写入文件）：").strip()
     if not api_key:

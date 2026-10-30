@@ -39,7 +39,7 @@ python .\qwen_batch_image.py --prompt "一只在月球上喝茶的猫" --count 5
 `https://dashscope.aliyuncs.com/api/v1/services/aigc/text-to-image/image-synthesis`。
 当前脚本默认使用新版 `qwen-image-3.0-pro` 和多模态生成接口。如果你的 Key 属于其他地域，或控制台给了不同的 Endpoint，需要把脚本顶部的 `SUBMIT_URL` 改成控制台文档中的地址。`MODEL` 也要改为你的账号实际开通的千问生图模型。
 
-不要把 API Key 提交到 Git 或公开网页；使用环境变量最安全。
+不要把 API Key 提交到 Git 或公开网页。可以复制 `.env.example` 为本地 `.env`，填入 `DASHSCOPE_API_KEY`；`.env` 已被 Git 忽略，脚本会自动读取。
 
 ## Benchmark 计划模式
 
