@@ -11,7 +11,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -33,7 +33,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -41,7 +41,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A goldfish is swimming among aquatic plants.
 ```
@@ -55,7 +55,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -77,7 +77,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -85,7 +85,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A blender is blending fruit into a smoothie.
 ```
@@ -99,7 +99,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -121,7 +121,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -129,7 +129,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 Coffee is steaming in a mug.
 ```
@@ -143,7 +143,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -165,7 +165,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -173,7 +173,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A shiitake mushroom is growing on a piece of wood.
 ```
@@ -187,7 +187,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -209,7 +209,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -217,7 +217,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 The sun is appearing over a distant horizon.
 ```
@@ -231,7 +231,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -253,7 +253,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -261,7 +261,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A gardener is planting a small flower.
 ```
@@ -275,7 +275,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -297,7 +297,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -305,7 +305,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 Lavender is blooming beside a garden path.
 ```
@@ -319,7 +319,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -341,7 +341,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -349,7 +349,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A tomato is being sliced on a cutting board.
 ```
@@ -363,7 +363,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -385,7 +385,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -393,7 +393,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A turtle is crossing a sunlit stone.
 ```
@@ -407,7 +407,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -429,7 +429,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -437,7 +437,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A sailboat is gliding across calm water.
 ```
@@ -451,7 +451,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -473,7 +473,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -481,7 +481,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 Tea is being poured into a cup.
 ```
@@ -495,7 +495,7 @@ Create exactly one original, visually appealing illustration in a simple, iconic
 
 ## 1. Scene and creativity
 
-Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use a plain, supportive background with at most one simple flat ground shape. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
+Treat the sample-specific subject and action as fixed semantic anchors. Show exactly one main subject. Use one visible, full-canvas pastel background field with a single uniform color, plus at most one simple flat ground shape. The background must be visibly present and must not be a blank white canvas. Keep the subject large and centered, with generous empty space around it. Do not add other animals, people, furniture, tools, flowers, clouds, distant objects, or scenery.
 
 ## 2. Semantic layer structure
 
@@ -517,7 +517,7 @@ Prioritize clarity at a glance over detail. Keep the entire image readable as a 
 
 ## 6. Composition
 
-Present one centered main subject against a nearly empty background. Use at most one simple flat ground shape and one plain background color. Maintain generous negative space and a clear visual hierarchy.
+Present one centered main subject against one clearly visible full-canvas pastel background field. Use at most one simple flat ground shape and no scenery. Maintain generous negative space and a clear visual hierarchy.
 
 ## 7. Output requirements
 
@@ -525,7 +525,7 @@ Prefer one complete editable SVG image with viewBox="0 0 1536 1024" (landscape 3
 
 ## 8. Final check
 
-Before output, verify that the image contains exactly one recognizable main subject, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
+Before output, verify that the image contains exactly one recognizable main subject, one visible full-canvas background field, no extra objects, at most 2–4 semantic layers including the background, only flat filled shapes, no outlines, no shadows, no gradients, no texture, and no fine decorative details. If not, simplify or redesign before rendering.
 
 A shiitake mushroom is resting beside a fallen log.
 ```

@@ -35,6 +35,8 @@ python .\qwen_batch_image.py
 python .\qwen_batch_image.py --prompt "一只在月球上喝茶的猫" --count 50 --workers 3
 ```
 
+脚本默认会发送仓库内置的负面提示词，用于抑制黑色描边、线稿、阴影、渐变、纹理和多余对象。需要覆盖默认值时，可以显式传入 `--negative-prompt`；传入空字符串可关闭这项约束。
+
 图片默认保存到 `qwen_outputs` 文件夹，文件名为 `qwen_0001.png`、`qwen_0002.png` 等。失败的单张会自动重试，其他图片不会因此停止。
 
 ## 常用参数
@@ -44,7 +46,7 @@ python .\qwen_batch_image.py --prompt "一只在月球上喝茶的猫" --count 5
 --model qwen-image-plus    千问模型名称，以控制台实际可用模型为准
 --size 1024*1024           图片尺寸，以模型支持的值为准
 --workers 3                并发任务数；遇到限流时改为 1 或 2
---negative-prompt "..."    负面提示词
+--negative-prompt "..."    覆盖默认负面提示词；传空字符串可关闭
 --output-dir my_images     输出文件夹
 --base-seed 20261027       起始随机种子；换一个值可得到另一组结果
 ```
@@ -82,5 +84,7 @@ python .\plan_dataset.py --count 12 --priority P0 --output-dir .\prompt_preview 
 $env:DASHSCOPE_API_KEY = "你的API Key"
 python .\generate_dataset.py --plans .\dataset_demo\plans.jsonl --prompts .\dataset_demo\prompts.jsonl --workers 3
 ```
+
+`generate_dataset.py` 同样默认发送这组负面提示词，也可以用 `--negative-prompt` 覆盖。网页端如果没有独立的 Negative Prompt 输入框，无法保证模型执行这类排除约束；使用仓库 API 脚本时，负面提示词会作为接口参数单独发送，不会拼接到逐图 Prompt 中。
 
 该命令固定每条请求 `n=1`，图片保存到 `dataset_demo/images/`，生成参数、任务 ID、图片哈希和状态保存到 `manifest.jsonl`。详细设计见 [`PROMPT_DATASET_DESIGN.md`](PROMPT_DATASET_DESIGN.md)。

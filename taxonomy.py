@@ -81,7 +81,7 @@ ACTION_DESCRIPTIONS: dict[str, tuple[str, ...]] = {
     "shiitake": ("A shiitake mushroom is growing on a piece of wood.", "A shiitake mushroom is resting beside a fallen log."),
     # The WordNet entry remains cattle, but the prompt uses one representative
     # cow so the generator does not turn the sample into a herd scene.
-    "cattle": ("A single cartoon cow is grazing on a flat patch of grass.", "A single cartoon cow is standing on a flat patch of grass."),
+    "cattle": ("A single cow is grazing on a flat patch of grass.", "A single cow is standing on a flat patch of grass."),
 }
 
 

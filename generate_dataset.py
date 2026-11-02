@@ -21,6 +21,7 @@ from typing import Any
 
 from qwen_batch_image import (
     API_KEY,
+    NEGATIVE_PROMPT,
     SUBMIT_URL,
     ApiError,
     download,
@@ -181,7 +182,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=None)
     parser.add_argument("--model", default="qwen-image-3.0-pro")
     parser.add_argument("--size", default="1024*1024")
-    parser.add_argument("--negative-prompt", default="")
+    parser.add_argument(
+        "--negative-prompt",
+        default=NEGATIVE_PROMPT,
+        help="负面提示词；默认使用仓库的无描边、无阴影和低细节约束",
+    )
     parser.add_argument("--workers", type=int, default=3)
     parser.add_argument("--poll-interval", type=float, default=2.0)
     parser.add_argument("--timeout", type=int, default=300)
