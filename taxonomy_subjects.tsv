@@ -1,0 +1,405 @@
+﻿family	family_zh	branch	branch_synset	name_zh	prompt_term	synset	priority	source
+animal	动物	两栖动物	amphibian.n.03	蛙	frog	frog.n.01	P0	previous_verified_wordnet_directory
+animal	动物	两栖动物	amphibian.n.03	水螈	newt	newt.n.01	P1	previous_verified_wordnet_directory
+animal	动物	两栖动物	amphibian.n.03	蝾螈	salamander	salamander.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	蝙蝠	bat	bat.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	熊	bear	bear.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	猫	cat	cat.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	牛	cattle	cattle.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	鹿	deer	deer.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	狗	dog	dog.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	海豚	dolphin	dolphin.n.02	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	大象	elephant	elephant.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	狐狸	fox	fox.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	大熊猫	giant panda	giant_panda.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	长颈鹿	giraffe	giraffe.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	山羊	goat	goat.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	仓鼠	hamster	hamster.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	刺猬	hedgehog	hedgehog.n.02	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	猪	hog	hog.n.03	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	马	horse	horse.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	袋鼠	kangaroo	kangaroo.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	考拉	koala	koala.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	狮子	lion	lion.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	猴	monkey	monkey.n.01	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	老鼠	mouse	mouse.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	兔	rabbit	rabbit.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	海豹	seal	seal.n.09	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	绵羊	sheep	sheep.n.01	unranked	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	松鼠	squirrel	squirrel.n.01	P0	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	老虎	tiger	tiger.n.02	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	鲸	whale	whale.n.02	P1	previous_verified_wordnet_directory
+animal	动物	哺乳动物	mammal.n.01	斑马	zebra	zebra.n.01	P1	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蚂蚁	ant	ant.n.01	P0	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蜜蜂	bee	bee.n.01	P0	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	甲虫	beetle	beetle.n.01	P1	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蝴蝶	butterfly	butterfly.n.01	P0	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蜻蜓	dragonfly	dragonfly.n.01	P0	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蚱蜢	grasshopper	grasshopper.n.01	P1	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	瓢虫	ladybug	ladybug.n.01	P0	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蚊子	mosquito	mosquito.n.01	P1	previous_verified_wordnet_directory
+animal	动物	昆虫	insect.n.01	蛾	moth	moth.n.01	P1	previous_verified_wordnet_directory
+animal	动物	棘皮动物	echinoderm.n.01	海参	sea cucumber	sea_cucumber.n.01	P1	previous_verified_wordnet_directory
+animal	动物	棘皮动物	echinoderm.n.01	海胆	sea urchin	sea_urchin.n.01	P1	previous_verified_wordnet_directory
+animal	动物	棘皮动物	echinoderm.n.01	海星	starfish	starfish.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	变色龙	chameleon	chameleon.n.03	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	鳄鱼	crocodile	crocodile.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	蜥蜴	lizard	lizard.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	海龟	sea turtle	sea_turtle.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	蛇	snake	snake.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	陆龟	tortoise	tortoise.n.01	P1	previous_verified_wordnet_directory
+animal	动物	爬行动物	reptile.n.01	龟	turtle	turtle.n.02	P0	previous_verified_wordnet_directory
+animal	动物	甲壳动物	crustacean.n.01	蟹	crab	crab.n.01	P1	previous_verified_wordnet_directory
+animal	动物	甲壳动物	crustacean.n.01	淡水螯虾	crayfish	crayfish.n.03	unranked	previous_verified_wordnet_directory
+animal	动物	甲壳动物	crustacean.n.01	龙虾	lobster	lobster.n.02	P1	previous_verified_wordnet_directory
+animal	动物	甲壳动物	crustacean.n.01	虾	shrimp	shrimp.n.03	P1	previous_verified_wordnet_directory
+animal	动物	蛛形动物	arachnid.n.01	蝎子	scorpion	scorpion.n.03	P1	previous_verified_wordnet_directory
+animal	动物	蛛形动物	arachnid.n.01	蜘蛛	spider	spider.n.01	P1	previous_verified_wordnet_directory
+animal	动物	蛛形动物	arachnid.n.01	蜱	tick	tick.n.02	P1	previous_verified_wordnet_directory
+animal	动物	软体动物	mollusk.n.01	章鱼	octopus	octopus.n.02	P1	previous_verified_wordnet_directory
+animal	动物	软体动物	mollusk.n.01	牡蛎	oyster	oyster.n.01	P1	previous_verified_wordnet_directory
+animal	动物	软体动物	mollusk.n.01	蜗牛	snail	snail.n.01	P1	previous_verified_wordnet_directory
+animal	动物	软体动物	mollusk.n.01	鱿鱼	squid	squid.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	鲤鱼	carp	carp.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	鳗鱼	eel	eel.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	金鱼	goldfish	goldfish.n.01	P0	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	鲑鱼	salmon	salmon.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	海马	seahorse	seahorse.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鱼类	fish.n.01	鲨鱼	shark	shark.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鸡	chicken	chicken.n.02	P0	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鸭	duck	duck.n.01	P0	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鹰	eagle	eagle.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	火烈鸟	flamingo	flamingo.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鹅	goose	goose.n.01	P0	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	麻雀	hedge sparrow	hedge_sparrow.n.01	P0	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	蜂鸟	hummingbird	hummingbird.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鸵鸟	ostrich	ostrich.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	猫头鹰	owl	owl.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	鹦鹉	parrot	parrot.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	孔雀	peacock	peacock.n.02	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	企鹅	penguin	penguin.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	天鹅	swan	swan.n.01	P1	previous_verified_wordnet_directory
+animal	动物	鸟类	bird.n.01	啄木鸟	woodpecker	woodpecker.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	commodity	commodity.n.01	腰带	belt	belt.n.02	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	女式上衣	blouse	blouse.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	咖啡机	coffee maker	coffee_maker.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	牛仔裤	jean	jean.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	T 恤	jersey	jersey.n.03	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	领带	necktie	necktie.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	睡衣	pajama	pajama.n.02	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	短裤	short pants	short_pants.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	毛衣	sweater	sweater.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	泳衣	swimsuit	swimsuit.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	烤面包机	toaster	toaster.n.02	P0	latest_document_wordnet_additions
+artifact	人造物	commodity	commodity.n.01	内衣	underwear	underwear.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	covering	covering.n.02	被子	blanket	blanket.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	covering	covering.n.02	运动鞋	gym shoe	gym_shoe.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	covering	covering.n.02	凉鞋	sandal	sandal.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	covering	covering.n.02	裙子	skirt	skirt.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	covering	covering.n.02	拖鞋	slipper	slipper.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	fabric	fabric.n.01	洗碗布	dishrag	dishrag.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	fabric	fabric.n.01	厨房纸巾	paper towel	paper_towel.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	fabric	fabric.n.01	毛巾	towel	towel.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	搅拌机	blender	blender.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	开罐器	can opener	can_opener.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	滤篮	colander	colander.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	梳子	comb	comb.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	擦丝器	grater	grater.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	发刷	hairbrush	hairbrush.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	玻璃罐	jar	jar.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	奶锅／小炖锅	saucepan	saucepan.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	instrumentality	instrumentality.n.03	牙刷	toothbrush	toothbrush.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	padding	padding.n.01	床垫	mattress	mattress.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	padding	padding.n.01	枕头	pillow	pillow.n.01	P0	latest_document_wordnet_additions
+artifact	人造物	乐器	musical_instrument.n.01	大提琴	cello	cello.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	小号	cornet	cornet.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	鼓	drum	drum.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	长笛	flute	flute.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	吉他	guitar	guitar.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	竖琴	harmonica	harmonica.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	钢琴	piano	piano.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	萨克斯管	sax	sax.n.02	unranked	previous_verified_wordnet_directory
+artifact	人造物	乐器	musical_instrument.n.01	小提琴	violin	violin.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	靴子	boot	boot.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	公交车	bus	bus.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	枝形吊灯	chandelier	chandelier.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	落地灯	floor lamp	floor_lamp.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	长柄勺	ladle	ladle.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	鞋	shoe	shoe.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	台灯	table lamp	table_lamp.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	列车	train	train.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	其他常见类别	artifact.n.01	轮椅	wheelchair	wheelchair.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	建筑拱	arch	arch.n.04	unranked	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	灯塔	beacon	beacon.n.03	P1	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	桥	bridge	bridge.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	喷泉	fountain	fountain.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	凉亭	gazebo	gazebo.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	门廊	porch	porch.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	体育场	stadium	stadium.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	其他构筑物	structure.n.01	塔	tower	tower.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	水壶	kettle	kettle.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	平底锅	pan	pan.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	烹饪锅	pot	pot.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	擀面杖	rolling pin	rolling_pin.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	刮铲	spatula	spatula.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	厨房器具	kitchen_utensil.n.01	打蛋器	whisk	whisk.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	床	bed	bed.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	长椅	bench	bench.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	书架	bookcase	bookcase.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	柜子	cabinet	cabinet.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	椅子	chair	chair.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	抽屉柜	chest of drawers	chest_of_drawers.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	书桌	desk	desk.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	沙发	sofa	sofa.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	凳子	stool	stool.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	桌子	table	table.n.02	P0	previous_verified_wordnet_directory
+artifact	人造物	家具	furniture.n.01	衣柜	wardrobe	wardrobe.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	背包	backpack	backpack.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	袋子	bag	bag.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	手提箱	bag	bag.n.06	unranked	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	篮子	basket	basket.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	瓶子	bottle	bottle.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	碗	bowl	bowl.n.03	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	箱盒	box	box.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	水桶	bucket	bucket.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	板条箱	crate	crate.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	杯子	cup	cup.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	花盆	pot	pot.n.04	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	茶杯	teacup	teacup.n.02	P0	previous_verified_wordnet_directory
+artifact	人造物	容器与箱包	container.n.01	浇水壶	watering can	watering_can.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	斧	ax	ax.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	锤子	hammer	hammer.n.02	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	耙	rake	rake.n.03	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	锯	saw	saw.n.02	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	剪刀	scissors	scissors.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	螺丝刀	screwdriver	screwdriver.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	铲	shovel	shovel.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	工具	tool.n.01	扳手	wrench	wrench.n.03	P1	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	公寓楼	apartment building	apartment_building.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	谷仓	barn	barn.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	教堂	church	church.n.02	P1	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	温室	greenhouse	greenhouse.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	医院建筑	hospital	hospital.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	旅馆	hotel	hotel.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	房屋	house	house.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	图书馆建筑	library	library.n.05	unranked	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	办公楼	office building	office_building.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	餐馆	restaurant	restaurant.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	学校建筑	school	school.n.02	unranked	previous_verified_wordnet_directory
+artifact	人造物	建筑物	building.n.01	庙宇	temple	temple.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	外套	coat	coat.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	连衣裙	dress	dress.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	手套	glove	glove.n.02	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	帽子	hat	hat.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	夹克	jacket	jacket.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	围巾	scarf	scarf.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	衬衫	shirt	shirt.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	裙子	skirt	skirt.n.02	P0	previous_verified_wordnet_directory
+artifact	人造物	服装	clothing.n.01	袜子	sock	sock.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	船	boat	boat.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	独木舟	canoe	canoe.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	划艇	dinghy	dinghy.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	帆船	sailboat	sailboat.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	舰船	ship	ship.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	水上交通工具	vessel.n.02	潜水艇	submarine	submarine.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	照明灯具	lamp.n.01	手电筒	flashlight	flashlight.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	照明灯具	lamp.n.01	提灯	lantern	lantern.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	照明灯具	lamp.n.01	路灯	streetlight	streetlight.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	飞盘	Frisbee	frisbee.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	玩具气球	balloon	balloon.n.02	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	玩偶	doll	doll.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	呼啦圈	hula hoop	hula-hoop.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	风筝	kite	kite.n.03	P1	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	玩具风车	pinwheel	pinwheel.n.03	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	泰迪熊玩具	teddy	teddy.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	陀螺	top	top.n.08	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	玩具火车套装	train set	train_set.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	玩具	plaything.n.01	悠悠球	yo yo	yo-yo.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	航空器	aircraft.n.01	飞机	airplane	airplane.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	航空器	aircraft.n.01	飞艇	airship	airship.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	航空器	aircraft.n.01	气球航空器	balloon	balloon.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	航空器	aircraft.n.01	滑翔机	glider	glider.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	航空器	aircraft.n.01	直升机	helicopter	helicopter.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	救护车	ambulance	ambulance.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	自行车	bicycle	bicycle.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	出租车	cab	cab.n.03	P0	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	汽车	car	car.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	手推车	cart	cart.n.01	unranked	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	消防车	fire engine	fire_engine.n.01	P1	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	摩托车	motorcycle	motorcycle.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	卡车	truck	truck.n.01	P0	previous_verified_wordnet_directory
+artifact	人造物	轮式交通工具	wheeled_vehicle.n.01	厢式车	van	van.n.05	unranked	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	啤酒	beer	beer.n.01	P1	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	热可可	cocoa	cocoa.n.01	P1	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	咖啡	coffee	coffee.n.01	P0	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	柠檬水	lemonade	lemonade.n.01	P0	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	茶	tea	tea.n.01	P0	previous_verified_wordnet_directory
+beverage	饮料	饮料	beverage.n.01	葡萄酒	wine	wine.n.01	P1	previous_verified_wordnet_directory
+fungus	真菌	伞状有褶菌	agaric.n.02	毒鹅膏	death cap	death_cap.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	伞状有褶菌	agaric.n.02	毒蝇伞	fly agaric	fly_agaric.n.01	P1	previous_verified_wordnet_directory
+fungus	真菌	伞状有褶菌	agaric.n.02	可食伞菌	mushroom	mushroom.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他常见类别	fungus.n.01	香菇	shiitake	shiitake.n.01	P0	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	珊瑚菌	coral fungus	coral_fungus.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	地星	earthstar	earthstar.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	胶质菌／木耳类	jelly fungus	jelly_fungus.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	地衣	lichen	lichen.n.02	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	羊肚菌	morel	morel.n.01	P1	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	马勃	puffball	puffball.n.01	P1	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	块菌	truffle	truffle.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	其他真菌形态	fungus.n.01	酵母	yeast	yeast.n.02	P1	previous_verified_wordnet_directory
+fungus	真菌	牛肝菌	bolete.n.01	美味牛肝菌	Boletus edulis	boletus_edulis.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	牛肝菌	bolete.n.01	红网牛肝菌	Boletus luridus	boletus_luridus.n.01	unranked	previous_verified_wordnet_directory
+fungus	真菌	牛肝菌	bolete.n.01	粉牛肝菌	Boletus pulverulentus	boletus_pulverulentus.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	其他常见类别	natural_object.n.01	彗星	comet	comet.n.01	P1	previous_verified_wordnet_directory
+natural_object	自然物	其他常见类别	natural_object.n.01	陨石	meteorite	meteorite.n.01	P1	previous_verified_wordnet_directory
+natural_object	自然物	天体	celestial_body.n.01	月球	Moon	moon.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	天体	celestial_body.n.01	小行星	asteroid	asteroid.n.01	P1	previous_verified_wordnet_directory
+natural_object	自然物	天体	celestial_body.n.01	行星	planet	planet.n.01	P1	previous_verified_wordnet_directory
+natural_object	自然物	天体	celestial_body.n.01	恒星	star	star.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	天体	celestial_body.n.01	太阳	sun	sun.n.01	P0	previous_verified_wordnet_directory
+natural_object	自然物	天然覆盖结构	covering.n.01	树皮	bark	bark.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	天然覆盖结构	covering.n.01	甲壳	carapace	carapace.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	天然覆盖结构	covering.n.01	蛋壳	shell	shell.n.05	unranked	previous_verified_wordnet_directory
+natural_object	自然物	天然覆盖结构	covering.n.01	软体动物硬壳	shell	shell.n.10	unranked	previous_verified_wordnet_directory
+natural_object	自然物	岩石物体	rock.n.01	巨石	boulder	boulder.n.01	P1	previous_verified_wordnet_directory
+natural_object	自然物	岩石物体	rock.n.01	卵石	pebble	pebble.n.01	P0	previous_verified_wordnet_directory
+natural_object	自然物	岩石物体	rock.n.01	踏脚石	stepping stone	stepping_stone.n.01	unranked	previous_verified_wordnet_directory
+natural_object	自然物	巢	nest.n.01	蜂巢	beehive	beehive.n.02	P1	previous_verified_wordnet_directory
+natural_object	自然物	巢	nest.n.01	鸟巢	bird's nest	bird's_nest.n.01	P1	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	婴儿	baby	baby.n.01	unranked	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	水手	bluejacket	bluejacket.n.01	unranked	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	骑车人	cyclist	cyclist.n.01	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	医生	doctor	doctor.n.01	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	探险者	explorer	explorer.n.01	unranked	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	农民	farmer	farmer.n.01	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	女孩	female child	female_child.n.01	unranked	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	消防员	fireman	fireman.n.04	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	男孩	male child	male_child.n.01	unranked	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	护士	nanny	nanny.n.01	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	摄影师	photographer	photographer.n.01	P1	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	警察	policeman	policeman.n.01	P0	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	科学家	scientist	scientist.n.01	P1	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	裁缝	tailor	tailor.n.01	P1	previous_verified_wordnet_directory
+person	人物	其他常见类别	person.n.01	教师	teacher	teacher.n.01	P0	previous_verified_wordnet_directory
+person	人物	成年人物	adult.n.01	成年男性	man	man.n.01	unranked	previous_verified_wordnet_directory
+person	人物	成年人物	adult.n.01	老年男性	old man	old_man.n.01	unranked	previous_verified_wordnet_directory
+person	人物	成年人物	adult.n.01	老年女性	old woman	old_woman.n.01	unranked	previous_verified_wordnet_directory
+person	人物	成年人物	adult.n.01	成年女性	woman	woman.n.01	unranked	previous_verified_wordnet_directory
+person	人物	旅行与移动中的人	traveler.n.01	宇航员	astronaut	astronaut.n.01	unranked	previous_verified_wordnet_directory
+person	人物	旅行与移动中的人	traveler.n.01	徒步者	hiker	hiker.n.01	P1	previous_verified_wordnet_directory
+person	人物	旅行与移动中的人	traveler.n.01	乘客	passenger	passenger.n.01	unranked	previous_verified_wordnet_directory
+person	人物	旅行与移动中的人	traveler.n.01	行人	pedestrian	pedestrian.n.01	unranked	previous_verified_wordnet_directory
+person	人物	旅行与移动中的人	traveler.n.01	游客	tourist	tourist.n.01	P1	previous_verified_wordnet_directory
+person	人物	未成年人物	juvenile.n.01	青少年	adolescent	adolescent.n.01	unranked	previous_verified_wordnet_directory
+person	人物	未成年人物	juvenile.n.01	儿童	child	child.n.01	P0	previous_verified_wordnet_directory
+person	人物	未成年人物	juvenile.n.01	学步儿童	toddler	toddler.n.01	unranked	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	面包师	baker	baker.n.02	P1	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	铁匠	blacksmith	blacksmith.n.01	unranked	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	木匠	carpenter	carpenter.n.01	P1	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	厨师	cook	cook.n.01	P0	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	园丁	gardener	gardener.n.02	P0	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	邮递员	mailman	mailman.n.01	P1	previous_verified_wordnet_directory
+person	人物	职业劳动者	worker.n.01	油漆工	painter	painter.n.02	P1	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	演员	actor	actor.n.01	unranked	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	小丑	clown	clown.n.02	unranked	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	舞者	dancer	dancer.n.01	P1	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	魔术师	magician	magician.n.01	unranked	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	器乐演奏者	musician	musician.n.01	unranked	previous_verified_wordnet_directory
+person	人物	表演者	entertainer.n.01	歌手	singer	singer.n.01	P1	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	篮球运动员	basketball player	basketball_player.n.01	P1	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	橄榄球运动员	football player	football_player.n.01	unranked	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	体操运动员	gymnast	gymnast.n.01	unranked	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	跑步运动员	runner	runner.n.06	unranked	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	滑冰者	skater	skater.n.01	P1	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	滑雪运动员	skier	skier.n.01	unranked	previous_verified_wordnet_directory
+person	人物	运动员	athlete.n.01	游泳运动员	swimmer	swimmer.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	仙人掌	cactus.n.01	桶形仙人掌	echinocactus	echinocactus.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	仙人掌	cactus.n.01	仙人掌属植物	prickly pear	prickly_pear.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	仙人掌	cactus.n.01	巨人柱	saguaro	saguaro.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	竹	bamboo	bamboo.n.02	P0	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	水仙	daffodil	daffodil.n.01	P1	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	鸢尾	iris	iris.n.01	P1	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	百合	lily	lily.n.01	P0	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	芦苇	reed	reed.n.01	P1	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	迷迭香	rosemary	rosemary.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	其他常见类别	plant.n.02	郁金香	tulip	tulip.n.01	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	苹果树	apple tree	apple_tree.n.01	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	桦树	birch	birch.n.02	P1	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	樱桃树	cherry	cherry.n.02	P1	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	冷杉	fir	fir.n.02	P1	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	柠檬树	lemon	lemon.n.03	P1	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	枫树	maple	maple.n.02	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	橡树	oak	oak.n.02	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	橙树	orange	orange.n.03	P1	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	棕榈树	palm	palm.n.03	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	松树	pine	pine.n.01	P0	previous_verified_wordnet_directory
+plant	植物	树木	tree.n.01	柳树	willow	willow.n.01	P0	previous_verified_wordnet_directory
+plant	植物	水生植物	aquatic_plant.n.01	浮萍	duckweed	duckweed.n.01	P1	previous_verified_wordnet_directory
+plant	植物	水生植物	aquatic_plant.n.01	莲	lotus	lotus.n.01	P1	previous_verified_wordnet_directory
+plant	植物	水生植物	aquatic_plant.n.01	凤眼莲	water hyacinth	water_hyacinth.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	水生植物	aquatic_plant.n.01	睡莲	water lily	water_lily.n.01	P1	previous_verified_wordnet_directory
+plant	植物	灌木	shrub.n.01	杜鹃	azalea	azalea.n.01	P1	previous_verified_wordnet_directory
+plant	植物	灌木	shrub.n.01	绣球	hydrangea	hydrangea.n.01	P0	previous_verified_wordnet_directory
+plant	植物	灌木	shrub.n.01	薰衣草	lavender	lavender.n.01	P0	previous_verified_wordnet_directory
+plant	植物	灌木	shrub.n.01	玫瑰	rose	rose.n.01	P0	previous_verified_wordnet_directory
+plant	植物	禾草类	grass.n.01	玉米植株	corn	corn.n.01	P1	previous_verified_wordnet_directory
+plant	植物	禾草类	grass.n.01	水稻植株	rice	rice.n.02	unranked	previous_verified_wordnet_directory
+plant	植物	禾草类	grass.n.01	小麦植株	wheat	wheat.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	蕨类	fern.n.01	欧洲蕨	bracken	bracken.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	蕨类	fern.n.01	铁线蕨	maidenhair	maidenhair.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	蕨类	fern.n.01	紫萁	royal fern	royal_fern.n.01	unranked	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	康乃馨	carnation	carnation.n.01	P1	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	雏菊	daisy	daisy.n.01	P0	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	万寿菊	marigold	marigold.n.01	P1	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	兰花	orchid	orchid.n.01	P0	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	罂粟	poppy	poppy.n.01	P1	previous_verified_wordnet_directory
+plant	植物	观花植物	flower.n.01	向日葵	sunflower	sunflower.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	meat	meat.n.01	鸡肉	chicken	chicken.n.01	P0	latest_document_wordnet_additions
+solid_food	固体食品	meat	meat.n.01	猪肉	pork	pork.n.01	P0	latest_document_wordnet_additions
+solid_food	固体食品	乳制品	dairy_product.n.01	黄油	butter	butter.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	乳制品	dairy_product.n.01	奶酪	cheese	cheese.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	乳制品	dairy_product.n.01	奶油	cream	cream.n.02	P1	previous_verified_wordnet_directory
+solid_food	固体食品	乳制品	dairy_product.n.01	牛奶	milk	milk.n.01	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	乳制品	dairy_product.n.01	酸奶	yogurt	yogurt.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	其他常见类别	food.n.01	蛋奶冻	custard	custard.n.01	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	苹果	apple	apple.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	香蕉	banana	banana.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	樱桃	cherry	cherry.n.03	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	葡萄	grape	grape.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	柠檬	lemon	lemon.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	芒果	mango	mango.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	橙子	orange	orange.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	桃	peach	peach.n.03	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	梨	pear	pear.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	菠萝	pineapple	pineapple.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	草莓	strawberry	strawberry.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	可食水果	edible_fruit.n.01	西瓜	watermelon	watermelon.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	贝果	bagel	bagel.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	面包	bread	bread.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	蛋糕	cake	cake.n.03	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	饼干	cookie	cookie.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	牛角包	crescent roll	crescent_roll.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	甜甜圈	doughnut	doughnut.n.02	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	松饼	muffin	muffin.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	馅饼	pie	pie.n.01	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	烘焙食品	baked_goods.n.01	果馅挞	tart	tart.n.02	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	甜点	dessert.n.01	冰淇淋	ice cream	ice_cream.n.01	P1	previous_verified_wordnet_directory
+solid_food	固体食品	甜点	dessert.n.01	慕斯	mousse	mousse.n.01	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	甜点	dessert.n.01	布丁	pudding	pudding.n.02	P1	previous_verified_wordnet_directory
+solid_food	固体食品	甜点	dessert.n.01	果汁冰糕	water ice	water_ice.n.02	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	汉堡	hamburger	hamburger.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	煎蛋卷	omelet	omelet.n.01	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	披萨	pizza	pizza.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	沙拉	salad	salad.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	三明治	sandwich	sandwich.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	汤	soup	soup.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	炖菜	stew	stew.n.02	unranked	previous_verified_wordnet_directory
+solid_food	固体食品	菜肴	dish.n.02	寿司	sushi	sushi.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	西兰花	broccoli	broccoli.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	卷心菜	cabbage	cabbage.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	黄瓜	cucumber	cucumber.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	茄子	eggplant	eggplant.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	豌豆	pea	pea.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	土豆	potato	potato.n.01	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	南瓜	pumpkin	pumpkin.n.02	P0	previous_verified_wordnet_directory
+solid_food	固体食品	蔬菜（食用部分）	vegetable.n.01	番茄	tomato	tomato.n.01	P0	previous_verified_wordnet_directory

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""把结构化场景计划渲染成每图一个的最终 Prompt。"""
+"""把主体行为计划渲染成每图一个的最终 Prompt。"""
 
 from __future__ import annotations
 
@@ -11,7 +11,6 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from qwen_batch_image import PROMPT as LEGACY_PROMPT
-from taxonomy import RELATION_LABELS
 
 
 def sha256_text(value: str) -> str:
@@ -23,56 +22,11 @@ def sha256_json(value: Any) -> str:
     return sha256_text(encoded)
 
 
-def _main_subject_family(plan: dict[str, Any]) -> str:
-    entities = plan.get("entities", [])
-    for entity in entities[1:]:
-        if entity.get("role") == "main_subject":
-            return str(entity.get("category", "recognizable subject"))
-    return "recognizable subject"
-
-
-def _with_article(value: str) -> str:
-    return ("an " if value[:1].lower() in "aeiou" else "a ") + value
-
-
-def _relation_sentence(relation: dict[str, Any], entities: dict[str, dict[str, Any]]) -> str:
-    source = entities[relation["source"]]["name"]
-    target = entities[relation["target"]]["name"]
-    relation_type = relation["type"]
-    label = RELATION_LABELS.get(relation_type, relation_type)
-    occlusion = relation.get("occlusion", "none")
-    if relation_type == "in_front_of":
-        return f"The {source} is in front of and partially occludes the {target} with {occlusion} occlusion."
-    if relation_type == "on":
-        source_category = entities[relation["source"]].get("category")
-        verb = {
-            "person": "stands on",
-            "animal": "stands on",
-            "vehicle": "rests on",
-            "plant": "grows on",
-            "food": "rests on",
-        }.get(source_category, "is placed on")
-        return f"The {source} {verb} the {target}."
-    if relation_type == "beside":
-        return f"The {source} is beside the {target}; keep both forms visually distinct."
-    if relation_type == "behind":
-        return f"The {source} is behind the {target} with {occlusion} occlusion."
-    return f"The {source} is {label} the {target}; keep both forms recognizable and separate."
-
-
 def render_prompt(plan: dict[str, Any]) -> str:
-    taxonomy = plan["taxonomy"]
-    entities = plan["entities"]
-    entity_by_id = {entity["id"]: entity for entity in entities}
-    main_subject_family = _with_article(_main_subject_family(plan))
-    occlusion_level = taxonomy["occlusion_level"]
-
-    return f"""{LEGACY_PROMPT}
-
-For this particular sample, use a {taxonomy['scene_type']} setting with one clear focal point centered on a {main_subject_family}. Aim for about {taxonomy['layer_count']} semantic entities including the background, but prioritize a harmonious, naturally related scene over filling a quota. Choose the specific subject and any supporting entities yourself so they belong together and make sense in this setting. A single main subject is acceptable when it creates the strongest illustration. The intended occlusion level is {occlusion_level}; use it only when a natural overlap helps the composition. Do not force unrelated objects or artificial interactions.
-
-Keep the scene naturally composed and recognizable. Let the model decide the exact object list, palette, viewpoint, composition, object sizes, positions, spacing, and visual details. Show only the final composite illustration with no labels, masks, guides, captions, frame, or extra independent objects.
-""".strip()
+    description = plan.get("image_description")
+    if not isinstance(description, str) or not description.strip():
+        raise ValueError("plan.image_description must contain one concise subject-action sentence")
+    return f"{LEGACY_PROMPT}\n\n{description.strip()}"
 
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -103,6 +57,29 @@ def write_prompts(plans: Iterable[dict[str, Any]], destination: Path) -> list[di
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
     return records
+
+
+def write_markdown_prompt_pack(plans: Iterable[dict[str, Any]], destination: Path) -> None:
+    """Write full prompts in fenced blocks that are easy to copy into a web UI."""
+    sections = [
+        "# Prompts for manual image-generation testing",
+        "",
+        "Copy one complete fenced block at a time. Each block contains the shared prompt followed by one sample-specific subject-action sentence.",
+        "",
+    ]
+    for index, plan in enumerate(plans, start=1):
+        subject = plan["entities"][0]
+        label = subject.get("name_zh") or subject["name"]
+        sections.extend([
+            f"## {index:02d}. {label} — `{subject['synset']}` ({plan['taxonomy']['subject_priority']})",
+            "",
+            "```text",
+            render_prompt(plan),
+            "```",
+            "",
+        ])
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text("\n".join(sections), encoding="utf-8", newline="\n")
 
 
 def parse_args() -> argparse.Namespace:

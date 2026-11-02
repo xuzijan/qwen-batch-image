@@ -45,10 +45,18 @@ def validate(plans: list[dict], prompts: list[dict]) -> list[str]:
             errors.append(f"{sample_id}: prompt_sha256 does not match")
         if prompt_record.get("image_seed") != plan.get("image_seed"):
             errors.append(f"{sample_id}: image seed differs between plan and prompt")
+        description = plan.get("image_description")
+        if isinstance(description, str) and description.strip():
+            if prompt.count(description.strip()) != 1:
+                errors.append(f"{sample_id}: prompt must append the image description exactly once")
+        lowered = prompt.lower()
+        if "intended occlusion level" in lowered or "semantic entities including the background" in lowered:
+            errors.append(f"{sample_id}: per-sample layer/occlusion metadata leaked into the prompt")
+        if " setting with one clear focal point centered on " in lowered:
+            errors.append(f"{sample_id}: a scene type is still being forced into the prompt")
         taxonomy = plan.get("taxonomy", {})
-        for required in (taxonomy.get("scene_type"), taxonomy.get("occlusion_level")):
-            if required and str(required).lower() not in prompt.lower():
-                errors.append(f"{sample_id}: prompt is missing controlled condition {required!r}")
+        if "scene_type" in taxonomy:
+            errors.append(f"{sample_id}: scene_type is obsolete; the model chooses the setting")
 
     duplicates = sum(count - 1 for count in seen_signatures.values() if count > 1)
     if duplicates:
